@@ -1,7 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
+
 .container {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #411530;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
+}
+
+.title {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  color: #f5e8e4;
+  font-family: Poltwaski;
+  letter-spacing: 2px;
+}
+
+.select-menu {
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 500;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.align-card-container {
+  margin-top: 10px;
+  background-color: #f5e8e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.style {
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+}
+
+#city-name {
+  color: #411530;
+  font-family: poltwaski;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+#date {
+  color: #411530;
+  font-family: poltwaski;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#time {
+  margin-top: 25px;
+  color: #d1512d;
+  font-family: poltwaski;
+  font-size: 25px;
+  letter-spacing: 2px;
 }
 
 .footer-section {

@@ -18,7 +18,7 @@
       <div class="display">
         <h1 class="title">Time arround the world</h1>
         <div class="select-menu">
-          <select name="cities" id="cities">
+          <select class="form-select" name="cities" id="cities">
             <option value="">Select a city</option>
             <option value="lisbon">Lisbon 🇵🇹</option>
             <option value="madrid">Madrid 🇪🇸</option>
@@ -32,12 +32,18 @@
             <option value="beijing">Beijing 🇨🇳</option>
           </select>
         </div>
-        <div class="card" style="width: 18rem">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Lisbon</li>
-            <li class="list-group-item">9 May 2023</li>
-          </ul>
-          <div class="card-footer">14:21h</div>
+        <div class="align-card-container">
+          <div class="card style bg-transparent border-0" style="width: 18rem">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent" id="city-name">
+                Lisbon
+              </li>
+              <li class="list-group-item bg-transparent" id="date">
+                9 May 2023
+              </li>
+              <li class="list-group-item bg-transparent" id="time">14:21h</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
