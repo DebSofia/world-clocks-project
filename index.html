@@ -20,22 +20,26 @@
       <div class="display">
         <h1 class="title">Time arround the world</h1>
         <div class="select-menu">
-          <select class="form-select" name="cities" id="cities">
+          <select class="form-select" name="cities-name" id="cities">
             <option value="">Select a city</option>
-            <option value="lisbon">Lisbon 🇵🇹</option>
-            <option value="madrid">Madrid 🇪🇸</option>
-            <option value="oslo">Oslo 🇳🇴</option>
-            <option value="new-york">New York 🇺🇸</option>
-            <option value="los-angeles">Los Angeles 🇺🇸</option>
-            <option value="sydney">Sydney 🇦🇺</option>
-            <option value="Auckland">Auckland 🇳🇿</option>
-            <option value="tokyo">Tokyo 🇯🇵</option>
-            <option value="seoul">Seoul 🇰🇷</option>
-            <option value="beijing">Beijing 🇨🇳</option>
+            <option value="Europe/Lisbon">Lisbon 🇵🇹</option>
+            <option value="Europe/Madrid">Madrid 🇪🇸</option>
+            <option value="Europe/Oslo">Oslo 🇳🇴</option>
+            <option value="America/New_York">New York 🇺🇸</option>
+            <option value="America/Los_Angeles">Los Angeles 🇺🇸</option>
+            <option value="Australia/Sydney">Sydney 🇦🇺</option>
+            <option value="Pacific/Auckland">Auckland 🇳🇿</option>
+            <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+            <option value="Asia/Seoul">Seoul 🇰🇷</option>
+            <option value="Asia/Hong_Kong">Hong Kong 🇨🇳</option>
           </select>
         </div>
         <div class="align-card-container">
-          <div class="card style bg-transparent border-0" style="width: 18rem">
+          <div
+            id="data-element"
+            class="card style bg-transparent border-0"
+            style="width: 18rem"
+          >
             <ul class="list-group list-group-flush">
               <li class="list-group-item bg-transparent" id="city-name">
                 Lisbon
